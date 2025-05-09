@@ -36,3 +36,20 @@ This project is a basic brute-force password cracker built with Python. It attem
 
 ```bash
 python3 password_cracker.py
+# 🧪 Simulated Malware for Ethical Hacking Practice
+
+This is a Python-based malware simulation used for ethical training in a controlled virtual machine (e.g., Parrot OS). It mimics basic malware behavior like self-installation, brute-force password cracking, and data exfiltration.
+
+---
+
+## 🚀 How It Works
+
+- `daemon.py`: Simulates malware by self-installing, cracking a password, and "sending" it.
+- `password_cracker.py`: Module to brute-force guess a password using defined charset.
+
+---
+
+## ✅ Usage
+
+```bash
+python3 daemon.py
